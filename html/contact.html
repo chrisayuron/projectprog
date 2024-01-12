@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ronald Ronald Rojas">
+    <link rel="icon" type="png" href="../img/icon.png">
+    <link rel="stylesheet" href="..//css/style.css">
+    <script src="../js/contact.js" defer></script>
+    <title>Project HTML</title>
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Inicio</a>  
+        <a href="./about.html">Acerca de</a>  
+        <a href="./contact.html"  class="activo">Contáctame</a>  
+    </nav>
+    <section>
+        <h2>CONTACTAME</h2>
+        <form  id="formulario">
+            <input type="text" placeholder="Nombre" id="fname" name="form_name"><br/>
+            <input type="text" placeholder="Email" id="femail" name="for_reply"><br/>
+            <textarea cols="30" rows="10" id="fmessage" name="message" placeholder="Mensaje"></textarea><br/>
+            <input type="submit" id="enviar">
+        </form>
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+                  
+        <script type="text/javascript">
+            emailjs.init('V_2iIw-cfmxujL55s')
+        </script>
+    </section>
+    <footer>
+        &copy;Ronald Rojas Newball
+    </footer>
+</body>
+</html>
