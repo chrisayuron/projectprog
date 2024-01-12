@@ -1,4 +1,4 @@
-#Programación para todos  
+#Programación para todos#  
 
 Me llamo Ronald Rojas Newball, soy un técnologo en sistemas que se dedica a la enseñanza. Aprendí acerca de la programación durante mis estudios universitarios, pero me dedique más al tema de la informática.   
 
